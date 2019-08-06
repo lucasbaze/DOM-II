@@ -185,3 +185,9 @@ selected.addEventListener('select', event => {
 everything.addEventListener('dblclick', event => {
     alert('I got lazy');
 });
+
+//
+// GSAP Green Sock Animation Plugin
+//
+
+TweenMax.from('.logo-heading', 2, { opacity: 0, scale: 1.13 });
